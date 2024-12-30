@@ -1,10 +1,30 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import thumbsyLogo from './thumbsy.png';
+import backgroundImage from './river.webp';
 
 function App() {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = backgroundImage;
+    img.onload = () => {
+      setImageLoaded(true);
+    };
+  }, []);
+
   return (
     <div className="App">
+      <div className="background-image">
+        <img 
+          src={backgroundImage}
+          alt="Background"
+          className={imageLoaded ? 'loaded' : ''}
+          loading="eager"
+          fetchpriority="high"
+        />
+      </div>
       <div className="white-box">
         <img src={thumbsyLogo} alt="Thumbsy Logo" className="logo" />
         <h1 className="heading-1">Knowing what you're buying</h1>
