@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/thumbsy-landing/static/css/main.d6bb4cb6.css",
-    "main.js": "/thumbsy-landing/static/js/main.2c9f6017.js",
-    "static/js/151.4bf144e6.chunk.js": "/thumbsy-landing/static/js/151.4bf144e6.chunk.js",
-    "static/media/river.png": "/thumbsy-landing/static/media/river.626aeb2c6a3283e4793d.png",
+    "main.css": "/thumbsy-landing/static/css/main.56511c8d.css",
+    "main.js": "/thumbsy-landing/static/js/main.a851f7fc.js",
+    "static/js/453.bb828c5d.chunk.js": "/thumbsy-landing/static/js/453.bb828c5d.chunk.js",
+    "static/media/river.webp": "/thumbsy-landing/static/media/river.b7195fac05158320605e.webp",
     "static/media/thumbsy.png": "/thumbsy-landing/static/media/thumbsy.fa4ad4e9eebc18f54608.png",
     "index.html": "/thumbsy-landing/index.html",
-    "main.d6bb4cb6.css.map": "/thumbsy-landing/static/css/main.d6bb4cb6.css.map",
-    "main.2c9f6017.js.map": "/thumbsy-landing/static/js/main.2c9f6017.js.map",
-    "151.4bf144e6.chunk.js.map": "/thumbsy-landing/static/js/151.4bf144e6.chunk.js.map"
+    "main.56511c8d.css.map": "/thumbsy-landing/static/css/main.56511c8d.css.map",
+    "main.a851f7fc.js.map": "/thumbsy-landing/static/js/main.a851f7fc.js.map",
+    "453.bb828c5d.chunk.js.map": "/thumbsy-landing/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6bb4cb6.css",
-    "static/js/main.2c9f6017.js"
+    "static/css/main.56511c8d.css",
+    "static/js/main.a851f7fc.js"
   ]
 }
