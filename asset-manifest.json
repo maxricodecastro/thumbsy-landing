@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/thumbsy-landing/static/css/main.5180c3d6.css",
+    "main.js": "/thumbsy-landing/static/js/main.35331662.js",
+    "static/js/151.4bf144e6.chunk.js": "/thumbsy-landing/static/js/151.4bf144e6.chunk.js",
+    "static/media/river.png": "/thumbsy-landing/static/media/river.d4a23332ca9bc568d80c.png",
+    "static/media/thumbsy.png": "/thumbsy-landing/static/media/thumbsy.0ef0ab4a84dd27fd2ef1.png",
+    "index.html": "/thumbsy-landing/index.html",
+    "main.5180c3d6.css.map": "/thumbsy-landing/static/css/main.5180c3d6.css.map",
+    "main.35331662.js.map": "/thumbsy-landing/static/js/main.35331662.js.map",
+    "151.4bf144e6.chunk.js.map": "/thumbsy-landing/static/js/151.4bf144e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5180c3d6.css",
+    "static/js/main.35331662.js"
+  ]
+}
