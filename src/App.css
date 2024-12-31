@@ -189,3 +189,77 @@
 .about-us:hover {
   transform: translateY(-2px);
 }
+
+.try-button.touching {
+  background-color: black;
+  color: white;
+  transform: scale(0.98);
+}
+
+@media (hover: none) {
+  .try-button:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .white-box {
+    width: 85%;
+    height: auto;
+    margin: 20px auto;
+    padding: 24px;
+    min-height: 80vh;
+  }
+
+  .App {
+    padding: 16px 0;
+  }
+
+  .heading-1 {
+    font-size: 18px;
+  }
+
+  .heading-2 {
+    font-size: 20px;
+  }
+
+  .description,
+  .beta-text {
+    font-size: 13px;
+  }
+
+  .about-us {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    text-align: center;
+    margin-top: 24px;
+    color: white;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .white-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  :root {
+    --logo-size: 48px;
+    --section-gap: 12px;
+    --description-margin-top: 20px;
+    --description-margin-bottom: 20px;
+    --beta-text-margin-bottom: 24px;
+  }
+
+  .try-button {
+    padding: 10px 20px;
+  }
+
+  .try-text,
+  .now-text {
+    font-size: 14px;
+  }
+}

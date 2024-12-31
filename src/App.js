@@ -5,6 +5,7 @@ import backgroundImage from './river.webp';
 
 function App() {
   const [imageLoaded, setImageLoaded] = useState(false);
+  const [isTouching, setIsTouching] = useState(false);
 
   useEffect(() => {
     const img = new Image();
@@ -13,6 +14,9 @@ function App() {
       setImageLoaded(true);
     };
   }, []);
+
+  const handleTouchStart = () => setIsTouching(true);
+  const handleTouchEnd = () => setIsTouching(false);
 
   return (
     <div className="App">
@@ -27,7 +31,7 @@ function App() {
       </div>
       <div className="white-box">
         <img src={thumbsyLogo} alt="Thumbsy Logo" className="logo" />
-        <h1 className="heading-1">Knowing what you're buying</h1>
+        <h1 className="heading-1">Knowing what you're buying,</h1>
         <h2 className="heading-2">should be as simple as possible.</h2>
         <div className="divider"></div>
         <p className="description">
@@ -36,7 +40,11 @@ function App() {
         <p className="beta-text">
           We are continuously updating the app and would love to take you along for the ride. Want to join us in our beta testing? Click the link below.
         </p>
-        <button className="try-button">
+        <button 
+          className={`try-button ${isTouching ? 'touching' : ''}`}
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
+        >
           <span className="try-text">Try it</span>
           <span className="now-text">now</span>
         </button>
