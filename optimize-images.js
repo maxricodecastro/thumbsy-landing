@@ -3,13 +3,13 @@ const fs = require('fs');
 
 async function optimizeImage() {
   try {
-    await sharp('src/river.png')
-      .resize(1920, 1080, {
+    await sharp('src/tree.png')
+      .resize(1080, 1920, {
         fit: 'cover',
         withoutEnlargement: true
       })
       .webp({ quality: 80 })
-      .toFile('src/river.webp');
+      .toFile('src/tree.webp');
 
     console.log('Image optimized successfully!');
   } catch (error) {
