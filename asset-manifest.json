@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/thumbsy-landing/static/css/main.56511c8d.css",
-    "main.js": "/thumbsy-landing/static/js/main.a851f7fc.js",
+    "main.css": "/thumbsy-landing/static/css/main.6f41bf05.css",
+    "main.js": "/thumbsy-landing/static/js/main.b9e1995c.js",
     "static/js/453.bb828c5d.chunk.js": "/thumbsy-landing/static/js/453.bb828c5d.chunk.js",
-    "static/media/river.webp": "/thumbsy-landing/static/media/river.b7195fac05158320605e.webp",
-    "static/media/thumbsy.png": "/thumbsy-landing/static/media/thumbsy.fa4ad4e9eebc18f54608.png",
+    "static/media/tree.webp": "/thumbsy-landing/static/media/tree.8646c15e8567371bf1b5.webp",
     "index.html": "/thumbsy-landing/index.html",
-    "main.56511c8d.css.map": "/thumbsy-landing/static/css/main.56511c8d.css.map",
-    "main.a851f7fc.js.map": "/thumbsy-landing/static/js/main.a851f7fc.js.map",
+    "main.6f41bf05.css.map": "/thumbsy-landing/static/css/main.6f41bf05.css.map",
+    "main.b9e1995c.js.map": "/thumbsy-landing/static/js/main.b9e1995c.js.map",
     "453.bb828c5d.chunk.js.map": "/thumbsy-landing/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56511c8d.css",
-    "static/js/main.a851f7fc.js"
+    "static/css/main.6f41bf05.css",
+    "static/js/main.b9e1995c.js"
   ]
 }
